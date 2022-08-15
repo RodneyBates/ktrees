@@ -1,0 +1,20 @@
+
+% -----------------------------------------------------------------------1- 
+% This is part of a reference implementation of K-trees, AKA Sequence trees.
+% Copyright 1994..2022, Rodney M. Bates.                                    
+% rodney.m.bates@acm.org                                                    
+% Licensed under the MIT License.                                           
+% -----------------------------------------------------------------------2- 
+
+% m3makefile for Modula-3 program to test K trees 
+
+import("libm3")
+module("Asserts")
+module("Image")
+module("Report")
+interface("IntElem")
+module("IntKTrees")
+module("IntCKTrees")
+generic_module("KTrees")
+implementation("TKTrees")
+program("TKTrees")
