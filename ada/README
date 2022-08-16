@@ -1,0 +1,5 @@
+An implementation of k-trees in Ada.  These have not
+been compiled or run in a long time and may have suffered
+bitrot.  The linked executable for test_k_trees ran as
+expected at some time in the past.  Dialect is Ada 83.
+Compiler used is GNAT.  
